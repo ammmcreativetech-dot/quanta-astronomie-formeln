@@ -1,0 +1,1346 @@
+[
+  {
+    "slug": "stellarparallaxe",
+    "name": "Stellarparallaxe und Entfernung",
+    "latex": "d\\,[\\mathrm{pc}] = \\frac{1}{p\\,[\\mathrm{arcsec}]}",
+    "symbol": "d [pc] = 1 / p [″]",
+    "kategorie": "astronomie",
+    "kapitel": "astro-entfernung-kosmologie",
+    "unterkategorie": "Entfernungsmessung",
+    "bildungsniveaus": [
+      "sek2",
+      "hochschulbruecke",
+      "bachelor"
+    ],
+    "schwierigkeit": "grundlegend",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "d",
+        "bedeutung": "Entfernung des Sterns",
+        "einheit": "pc"
+      },
+      {
+        "symbol": "p",
+        "bedeutung": "Jährlicher Parallaxen-Halbwinkel, nicht die gesamte Positionsspanne",
+        "einheit": "arcsec (″)"
+      }
+    ],
+    "quellen": [
+      "European Space Agency (ESA), “Parallax”.",
+      "European Space Agency (ESA), “Cosmic distances”."
+    ],
+    "quellenLinks": [
+      "https://www.esa.int/Science_Exploration/Space_Science/Gaia/Parallax",
+      "https://www.esa.int/content/view/full/416409"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/stellarparallaxe"
+  },
+  {
+    "slug": "hubble-gesetz-nahbereich",
+    "name": "Hubble-Lemaître-Gesetz (Näherung für kleine Rotverschiebung)",
+    "latex": "v_r \\approx H_0 d \\quad (z\\ll 1)",
+    "symbol": "vᵣ ≈ H₀d (z ≪ 1)",
+    "kategorie": "astronomie",
+    "kapitel": "astro-entfernung-kosmologie",
+    "unterkategorie": "Kosmologie",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "vᵣ",
+        "bedeutung": "Kosmologische Rezessionsgeschwindigkeit im Niedrig-z-Modell",
+        "einheit": "km/s"
+      },
+      {
+        "symbol": "H₀",
+        "bedeutung": "Heutiger Hubble-Parameter; sein Zahlenwert hängt von Messmethode und Modell ab",
+        "einheit": "km/(s·Mpc)"
+      },
+      {
+        "symbol": "d",
+        "bedeutung": "Entfernung der Galaxie im betrachteten Niedrig-z-Regime",
+        "einheit": "Mpc"
+      },
+      {
+        "symbol": "z",
+        "bedeutung": "Kosmologische Rotverschiebung",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "quellen": [
+      "OpenStax, Astronomy, §26.5 “The Expanding Universe”."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/astronomy/pages/26-5-the-expanding-universe"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/hubble-gesetz-nahbereich"
+  },
+  {
+    "slug": "wien-verschiebungsgesetz",
+    "name": "Wien’sches Verschiebungsgesetz",
+    "latex": "\\lambda_{\\max} T = b_W",
+    "symbol": "λₘₐₓT = bW",
+    "kategorie": "astronomie",
+    "kapitel": "astro-sterne-strahlung",
+    "unterkategorie": "Strahlung und Spektren",
+    "bildungsniveaus": [
+      "sek2",
+      "hochschulbruecke",
+      "bachelor"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "λₘₐₓ",
+        "bedeutung": "Wellenlänge des Maximums der Planck-Verteilung pro Wellenlängeneinheit",
+        "einheit": "m"
+      },
+      {
+        "symbol": "T",
+        "bedeutung": "Absolute Temperatur des schwarzen Körpers",
+        "einheit": "K"
+      },
+      {
+        "symbol": "bW",
+        "bedeutung": "Wien-Verschiebungskonstante, ungefähr \\(2{,}898\\cdot{}10^{-3}\\)",
+        "einheit": "m·K"
+      }
+    ],
+    "quellen": [
+      "OpenStax, Astronomy 2e, §5.2 “The Electromagnetic Spectrum”."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/astronomy-2e/pages/5-2-the-electromagnetic-spectrum"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/wien-verschiebungsgesetz"
+  },
+  {
+    "slug": "entfernungsmodul",
+    "name": "Astronomisches Entfernungsmodul",
+    "latex": "m_V-M_V = 5\\log_{10}\\!\\left(\\frac{d}{10\\,\\mathrm{pc}}\\right)+A_V",
+    "symbol": "mV − MV = 5 log₁₀(d/10 pc) + AV",
+    "kategorie": "astronomie",
+    "kapitel": "astro-entfernung-kosmologie",
+    "unterkategorie": "Sternentfernungen",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "mV",
+        "bedeutung": "Beobachtete scheinbare Helligkeit im V-Band",
+        "einheit": "mag"
+      },
+      {
+        "symbol": "MV",
+        "bedeutung": "Absolute Helligkeit im V-Band: scheinbare Helligkeit bei 10 pc ohne Extinktion",
+        "einheit": "mag"
+      },
+      {
+        "symbol": "d",
+        "bedeutung": "Entfernung zur Quelle",
+        "einheit": "pc"
+      },
+      {
+        "symbol": "AV",
+        "bedeutung": "Extinktion im V-Band zwischen Quelle und Beobachter",
+        "einheit": "mag"
+      }
+    ],
+    "quellen": [
+      "Swinburne University of Technology, COSMOS: “Distance Modulus”.",
+      "European Space Agency (ESA), Gaia exercise: extinction correction and corrected distance modulus."
+    ],
+    "quellenLinks": [
+      "https://astronomy.swin.edu.au/cosmos/%2A/Distance%2BModulus",
+      "https://sci.esa.int/documents/34439/36575/1567253650186-6-exercise4-high.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/entfernungsmodul"
+  },
+  {
+    "slug": "scheinbare-helligkeit-fluss",
+    "name": "Leuchtkraft, Strahlungsfluss und Entfernung",
+    "latex": "F = \\frac{L}{4\\pi d^2}",
+    "symbol": "F = L/(4πd²)",
+    "kategorie": "astronomie",
+    "kapitel": "astro-sterne-strahlung",
+    "unterkategorie": "Sternhelligkeit",
+    "bildungsniveaus": [
+      "sek2",
+      "hochschulbruecke",
+      "bachelor"
+    ],
+    "schwierigkeit": "grundlegend",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "F",
+        "bedeutung": "Empfangener bolometrischer Energiefluss pro Fläche",
+        "einheit": "W/m²"
+      },
+      {
+        "symbol": "L",
+        "bedeutung": "Gesamte abgestrahlte Leistung der Quelle",
+        "einheit": "W"
+      },
+      {
+        "symbol": "d",
+        "bedeutung": "Entfernung vom isotrop abstrahlenden Punktzentrum",
+        "einheit": "m"
+      }
+    ],
+    "quellen": [
+      "OpenStax, Astronomy 2e, §5.1 “The Behavior of Light” and §17.1 “The Brightness of Stars”."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/astronomy-2e/pages/5-1-the-behavior-of-light"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/scheinbare-helligkeit-fluss"
+  },
+  {
+    "slug": "sternradius-leuchtkraft-temperatur",
+    "name": "Sternradius aus Leuchtkraft und effektiver Temperatur",
+    "latex": "R=\\sqrt{\\frac{L}{4\\pi\\sigma T_{\\mathrm{eff}}^4}}",
+    "symbol": "R = √(L/(4πσTeff⁴))",
+    "kategorie": "astronomie",
+    "kapitel": "astro-sterne-strahlung",
+    "unterkategorie": "Sterne und Strahlung",
+    "bildungsniveaus": [
+      "sek2",
+      "hochschulbruecke",
+      "bachelor"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "R",
+        "bedeutung": "Radius der kugelförmigen Sternoberfläche",
+        "einheit": "m"
+      },
+      {
+        "symbol": "L",
+        "bedeutung": "Bolometrische Gesamtleuchtkraft des Sterns",
+        "einheit": "W"
+      },
+      {
+        "symbol": "σ",
+        "bedeutung": "Stefan-Boltzmann-Konstante",
+        "einheit": "W/(m²·K⁴)"
+      },
+      {
+        "symbol": "Teff",
+        "bedeutung": "Effektive Temperatur, die denselben Gesamtfluss wie ein schwarzer Körper ergibt",
+        "einheit": "K"
+      }
+    ],
+    "quellen": [
+      "OpenStax, Astronomy 2e, §5.2 “The Electromagnetic Spectrum”.",
+      "OpenStax, Astronomy 2e, §18.3 “Diameters of Stars”."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/astronomy-2e/pages/5-2-the-electromagnetic-spectrum",
+      "https://openstax.org/books/astronomy-2e/pages/18-3-diameters-of-stars"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/sternradius-leuchtkraft-temperatur"
+  },
+  {
+    "slug": "spektralrotverschiebung",
+    "name": "Spektralverschiebung und Rotverschiebung",
+    "latex": "z=\\frac{\\lambda_{\\mathrm{obs}}-\\lambda_{0}}{\\lambda_{0}}",
+    "symbol": "z = (λobs − λ₀)/λ₀",
+    "kategorie": "astronomie",
+    "kapitel": "astro-sterne-strahlung",
+    "unterkategorie": "Spektren und Bewegung",
+    "bildungsniveaus": [
+      "sek2",
+      "hochschulbruecke",
+      "bachelor"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "z",
+        "bedeutung": "Rotverschiebung; \\(z>0\\) bedeutet eine längere beobachtete Wellenlänge",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "λobs",
+        "bedeutung": "Im astronomischen Spektrum gemessene Wellenlänge der Linie",
+        "einheit": "m oder nm"
+      },
+      {
+        "symbol": "λ₀",
+        "bedeutung": "Ruhwellenlänge derselben Linie im Labor",
+        "einheit": "m oder nm"
+      }
+    ],
+    "quellen": [
+      "OpenStax, Astronomy 2e, §5.6 “The Doppler Effect”.",
+      "OpenStax, Astronomy 2e, §29.2 “A Model of the Universe”."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/astronomy-2e/pages/5-6-the-doppler-effect",
+      "https://openstax.org/books/astronomy-2e/pages/29-2-a-model-of-the-universe"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/spektralrotverschiebung"
+  },
+  {
+    "slug": "sternscheinbare-magnitude-flussverhaeltnis",
+    "name": "Magnitudendifferenz aus dem Flussverhältnis",
+    "latex": "m_1-m_2=-2.5\\log_{10}\\!\\left(\\frac{F_1}{F_2}\\right)",
+    "symbol": "m₁ − m₂ = −2,5 log₁₀(F₁/F₂)",
+    "kategorie": "astronomie",
+    "kapitel": "astro-sterne-strahlung",
+    "unterkategorie": "Sternhelligkeit",
+    "bildungsniveaus": [
+      "sek2",
+      "hochschulbruecke",
+      "bachelor"
+    ],
+    "schwierigkeit": "grundlegend",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "m1, m2",
+        "bedeutung": "Scheinbare Magnituden zweier Quellen auf derselben photometrischen Skala",
+        "einheit": "mag"
+      },
+      {
+        "symbol": "F1, F2",
+        "bedeutung": "Gemessene Flüsse derselben Banddefinition für Quelle 1 und 2",
+        "einheit": "W/m² oder kompatible Flusseinheit"
+      }
+    ],
+    "quellen": [
+      "OpenStax, Astronomy 2e, §17.1 “The Brightness of Stars”."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/astronomy-2e/pages/17-1-the-brightness-of-stars"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/sternscheinbare-magnitude-flussverhaeltnis"
+  },
+  {
+    "slug": "teleskop-rayleigh-aufloesung",
+    "name": "Beugungsbegrenzte Winkelauflösung eines Teleskops",
+    "latex": "\\theta_R\\approx1.22\\frac{\\lambda}{D}",
+    "symbol": "θR ≈ 1,22 λ/D",
+    "kategorie": "astronomie",
+    "kapitel": "astro-sterne-strahlung",
+    "unterkategorie": "Beobachtung und Instrumente",
+    "bildungsniveaus": [
+      "sek2",
+      "hochschulbruecke",
+      "bachelor"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "θR",
+        "bedeutung": "Rayleigh-Grenzwinkel in der Kleinwinkelnäherung",
+        "einheit": "rad"
+      },
+      {
+        "symbol": "λ",
+        "bedeutung": "Beobachtete Wellenlänge",
+        "einheit": "m"
+      },
+      {
+        "symbol": "D",
+        "bedeutung": "Durchmesser der kreisförmigen Teleskopapertur",
+        "einheit": "m"
+      }
+    ],
+    "quellen": [
+      "OpenStax, College Physics 2e, §27.6 “Limits of Resolution: The Rayleigh Criterion”."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/college-physics-2e/pages/27-6-limits-of-resolution-the-rayleigh-criterion"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/teleskop-rayleigh-aufloesung"
+  },
+  {
+    "slug": "eigenbewegung-tangentialgeschwindigkeit",
+    "name": "Tangentialgeschwindigkeit aus Eigenbewegung",
+    "latex": "v_t[\\mathrm{km/s}]=4.74047\\,\\mu[\\mathrm{arcsec/yr}]\\,d[\\mathrm{pc}]",
+    "symbol": "vt [km/s] = 4,74047 μ [″/Jahr] d [pc]",
+    "kategorie": "astronomie",
+    "kapitel": "astro-sterne-strahlung",
+    "unterkategorie": "Sternbewegung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "vt",
+        "bedeutung": "Tangentiale Geschwindigkeitskomponente quer zur Sichtlinie",
+        "einheit": "km/s"
+      },
+      {
+        "symbol": "μ",
+        "bedeutung": "Winkeländerung pro Zeit am Himmel, als Betrag der Eigenbewegung",
+        "einheit": "arcsec/yr"
+      },
+      {
+        "symbol": "d",
+        "bedeutung": "Geometrische Entfernung des Sterns",
+        "einheit": "pc"
+      }
+    ],
+    "quellen": [
+      "OpenStax, Astronomy 2e, §17.4 “Using Spectra to Measure Stellar Radius, Composition, and Motion”."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/astronomy-2e/pages/17-4-using-spectra-to-measure-stellar-radius-composition-and-motion"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/eigenbewegung-tangentialgeschwindigkeit"
+  },
+  {
+    "slug": "schwarzschild-radius",
+    "name": "Schwarzschild-Radius eines nicht rotierenden Schwarzen Lochs",
+    "latex": "r_s=\\frac{2GM}{c^2}",
+    "symbol": "rs = 2GM/c²",
+    "kategorie": "astronomie",
+    "kapitel": "astro-bahnen-gravitation",
+    "unterkategorie": "Kompakte Objekte",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "rs",
+        "bedeutung": "Radius des Ereignishorizonts im Schwarzschild-Modell",
+        "einheit": "m"
+      },
+      {
+        "symbol": "G",
+        "bedeutung": "Gravitationskonstante",
+        "einheit": "m³/(kg·s²)"
+      },
+      {
+        "symbol": "M",
+        "bedeutung": "Masse des kompakten Objekts",
+        "einheit": "kg"
+      },
+      {
+        "symbol": "c",
+        "bedeutung": "Lichtgeschwindigkeit im Vakuum",
+        "einheit": "m/s"
+      }
+    ],
+    "quellen": [
+      "OpenStax, Astronomy 2e, §24.5 “Black Holes”."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/astronomy-2e/pages/24-5-black-holes"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/schwarzschild-radius"
+  },
+  {
+    "slug": "sternwinkelgroesse-entfernung",
+    "name": "Stern-Durchmesser aus Winkelgröße und Entfernung",
+    "latex": "D\\approx d\\,\\theta",
+    "symbol": "D ≈ d θ",
+    "kategorie": "astronomie",
+    "kapitel": "astro-entfernung-kosmologie",
+    "unterkategorie": "Entfernungsmessung",
+    "bildungsniveaus": [
+      "sek2",
+      "hochschulbruecke",
+      "bachelor"
+    ],
+    "schwierigkeit": "grundlegend",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "D",
+        "bedeutung": "Linearer Durchmesser des Sterns",
+        "einheit": "m"
+      },
+      {
+        "symbol": "d",
+        "bedeutung": "Entfernung zum Stern",
+        "einheit": "m"
+      },
+      {
+        "symbol": "θ",
+        "bedeutung": "Gemessener Winkeldurchmesser, in Radiant eingesetzt",
+        "einheit": "rad"
+      }
+    ],
+    "quellen": [
+      "OpenStax, Astronomy 2e, §18.3 “Diameters of Stars”."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/astronomy-2e/pages/18-3-diameters-of-stars"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/sternwinkelgroesse-entfernung"
+  },
+  {
+    "slug": "kepler-flaechengeschwindigkeit",
+    "name": "Keplers Flächensatz und Arealgeschwindigkeit",
+    "latex": "\\frac{dA}{dt}=\\frac{h}{2}=\\mathrm{konstant}",
+    "symbol": "dA/dt = h/2 = konstant",
+    "kategorie": "astronomie",
+    "kapitel": "astro-bahnen-gravitation",
+    "unterkategorie": "Bahnen und Gravitation",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "A",
+        "bedeutung": "Vom Radiusvektor überstrichene Fläche",
+        "einheit": "m²"
+      },
+      {
+        "symbol": "t",
+        "bedeutung": "Zeit",
+        "einheit": "s"
+      },
+      {
+        "symbol": "h",
+        "bedeutung": "Spezifischer Bahndrehimpuls \\(|r\\times{}v|\\)",
+        "einheit": "m²/s"
+      }
+    ],
+    "quellen": [
+      "OpenStax, Astronomy 2e, §3.1 “The Laws of Planetary Motion”."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/astronomy-2e/pages/3-1-the-laws-of-planetary-motion"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/kepler-flaechengeschwindigkeit"
+  },
+  {
+    "slug": "kosmologische-skalenfaktor-rotverschiebung",
+    "name": "Kosmologische Rotverschiebung und Skalenfaktor",
+    "latex": "1+z=\\frac{a(t_0)}{a(t_e)}",
+    "symbol": "1 + z = a(t₀)/a(te)",
+    "kategorie": "astronomie",
+    "kapitel": "astro-entfernung-kosmologie",
+    "unterkategorie": "Kosmologie",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "z",
+        "bedeutung": "Kosmologische Rotverschiebung",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "a(t₀)",
+        "bedeutung": "Skalenfaktor heute",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "a(te)",
+        "bedeutung": "Skalenfaktor zum Emissionszeitpunkt",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "quellen": [
+      "OpenStax, Astronomy 2e, §29.2 “A Model of the Universe”."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/astronomy-2e/pages/29-2-a-model-of-the-universe"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/kosmologische-skalenfaktor-rotverschiebung"
+  },
+  {
+    "slug": "roche-grenze-fluidmond",
+    "name": "Roche-Grenze für einen fluiden Satelliten",
+    "latex": "d_R\\approx2.44R_p\\left(\\frac{\\rho_p}{\\rho_s}\\right)^{1/3}",
+    "symbol": "dR ≈ 2,44 Rp (ρp/ρs)¹ᐟ³",
+    "kategorie": "astronomie",
+    "kapitel": "astro-bahnen-gravitation",
+    "unterkategorie": "Bahnen und Gravitation",
+    "bildungsniveaus": [
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "dR",
+        "bedeutung": "Abstand der Roche-Grenze vom Zentrum des Primärkörpers",
+        "einheit": "m"
+      },
+      {
+        "symbol": "Rp",
+        "bedeutung": "Radius des Primärkörpers",
+        "einheit": "m"
+      },
+      {
+        "symbol": "ρp",
+        "bedeutung": "Mittlere Dichte des Primärkörpers",
+        "einheit": "kg/m³"
+      },
+      {
+        "symbol": "ρs",
+        "bedeutung": "Mittlere Dichte des fluiden Satelliten",
+        "einheit": "kg/m³"
+      }
+    ],
+    "quellen": [
+      "OpenStax, Astronomy 2e, §12.5 “Planetary Rings”."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/astronomy-2e/pages/12-5-planetary-rings-and-enceladus"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/roche-grenze-fluidmond"
+  },
+  {
+    "slug": "sternoberflaechengravitation",
+    "name": "Oberflächengravitation eines Sterns",
+    "latex": "g=\\frac{GM}{R^2}",
+    "symbol": "g = GM/R²",
+    "kategorie": "astronomie",
+    "kapitel": "astro-bahnen-gravitation",
+    "unterkategorie": "Sterne und Gravitation",
+    "bildungsniveaus": [
+      "sek2",
+      "hochschulbruecke",
+      "bachelor"
+    ],
+    "schwierigkeit": "grundlegend",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "g",
+        "bedeutung": "Gravitationsbeschleunigung an der Oberfläche",
+        "einheit": "m/s²"
+      },
+      {
+        "symbol": "G",
+        "bedeutung": "Gravitationskonstante",
+        "einheit": "m³/(kg·s²)"
+      },
+      {
+        "symbol": "M",
+        "bedeutung": "Sternmasse",
+        "einheit": "kg"
+      },
+      {
+        "symbol": "R",
+        "bedeutung": "Sternradius",
+        "einheit": "m"
+      }
+    ],
+    "quellen": [
+      "OpenStax, Astronomy 2e, §15.1 “The Structure and Composition of the Sun”."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/astronomy-2e/pages/15-1-the-structure-and-composition-of-the-sun"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/sternoberflaechengravitation"
+  },
+  {
+    "slug": "kelvin-helmholtz-zeitstern",
+    "name": "Kelvin-Helmholtz-Zeitskala eines Sterns",
+    "latex": "t_{KH}\\sim\\frac{GM^2}{RL}",
+    "symbol": "tKH ~ GM²/(RL)",
+    "kategorie": "astronomie",
+    "kapitel": "astro-sterne-strahlung",
+    "unterkategorie": "Sternentwicklung",
+    "bildungsniveaus": [
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "tKH",
+        "bedeutung": "Grobe gravitative Strahlungszeitskala",
+        "einheit": "s oder Jahre"
+      },
+      {
+        "symbol": "G",
+        "bedeutung": "Gravitationskonstante",
+        "einheit": "m³/(kg·s²)"
+      },
+      {
+        "symbol": "M",
+        "bedeutung": "Sternmasse",
+        "einheit": "kg"
+      },
+      {
+        "symbol": "R",
+        "bedeutung": "Sternradius",
+        "einheit": "m"
+      },
+      {
+        "symbol": "L",
+        "bedeutung": "Bolometrische Leuchtkraft",
+        "einheit": "W"
+      }
+    ],
+    "quellen": [
+      "OpenStax, Astronomy 2e, §16.1 “Sources of Sunshine: Thermal and Gravitational Energy”."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/astronomy-2e/pages/16-1-sources-of-sunshine-thermal-and-gravitational-energy"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/kelvin-helmholtz-zeitstern"
+  },
+  {
+    "slug": "jeans-masse-gravitationskollaps",
+    "name": "Jeans-Masse einer homogenen Gaswolke",
+    "latex": "M_J=\\frac{\\pi^{5/2}}{6}\\frac{c_s^3}{G^{3/2}\\rho^{1/2}}",
+    "symbol": "MJ = π⁵ᐟ² cs³/(6 G³ᐟ² ρ¹ᐟ²)",
+    "kategorie": "astronomie",
+    "kapitel": "astro-sterne-strahlung",
+    "unterkategorie": "Sternentstehung",
+    "bildungsniveaus": [
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "universitaet",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "MJ",
+        "bedeutung": "Jeans-Masse innerhalb einer Kugel mit halber Jeans-Wellenlänge als Radius",
+        "einheit": "kg"
+      },
+      {
+        "symbol": "cs",
+        "bedeutung": "Schallgeschwindigkeit im Gas",
+        "einheit": "m/s"
+      },
+      {
+        "symbol": "G",
+        "bedeutung": "Gravitationskonstante",
+        "einheit": "m³/(kg·s²)"
+      },
+      {
+        "symbol": "ρ",
+        "bedeutung": "Mittlere Massendichte des homogenen Mediums",
+        "einheit": "kg/m³"
+      }
+    ],
+    "quellen": [
+      "UCLA Astronomy 140, Lecture Notes, §22 “Jeans Mass”."
+    ],
+    "quellenLinks": [
+      "https://www.astro.ucla.edu/~wright/A140/A140.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/jeans-masse-gravitationskollaps"
+  },
+  {
+    "slug": "eddington-leuchtkraft",
+    "name": "Eddington-Leuchtkraft bei konstanter Opazität",
+    "latex": "L_E=\\frac{4\\pi GMc}{\\kappa}",
+    "symbol": "LE = 4πGMc/κ",
+    "kategorie": "astronomie",
+    "kapitel": "astro-sterne-strahlung",
+    "unterkategorie": "Sterne und Strahlung",
+    "bildungsniveaus": [
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "universitaet",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "LE",
+        "bedeutung": "Eddington-Grenzleuchtkraft im Modell",
+        "einheit": "W"
+      },
+      {
+        "symbol": "G",
+        "bedeutung": "Gravitationskonstante",
+        "einheit": "m³/(kg·s²)"
+      },
+      {
+        "symbol": "M",
+        "bedeutung": "Zentralmasse",
+        "einheit": "kg"
+      },
+      {
+        "symbol": "c",
+        "bedeutung": "Lichtgeschwindigkeit",
+        "einheit": "m/s"
+      },
+      {
+        "symbol": "κ",
+        "bedeutung": "Massenopazität für den relevanten Strahlungstransport",
+        "einheit": "m²/kg"
+      }
+    ],
+    "quellen": [
+      "Michigan State University, Stellar Astrophysics Notes, Eddington luminosity."
+    ],
+    "quellenLinks": [
+      "https://web.pa.msu.edu/people/ebrown/docs/stellar-notes.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/eddington-leuchtkraft"
+  },
+  {
+    "slug": "stern-dynamische-zeitskala",
+    "name": "Dynamische Zeitskala eines Sterns",
+    "latex": "t_{\\mathrm{dyn}}\\sim\\sqrt{\\frac{R^3}{GM}}",
+    "symbol": "tdyn ~ √(R³/(GM))",
+    "kategorie": "astronomie",
+    "kapitel": "astro-sterne-strahlung",
+    "unterkategorie": "Sternentwicklung",
+    "bildungsniveaus": [
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "universitaet",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "tdyn",
+        "bedeutung": "Charakteristische dynamische Reaktionszeit",
+        "einheit": "s"
+      },
+      {
+        "symbol": "R",
+        "bedeutung": "Sternradius",
+        "einheit": "m"
+      },
+      {
+        "symbol": "G",
+        "bedeutung": "Gravitationskonstante",
+        "einheit": "m³/(kg·s²)"
+      },
+      {
+        "symbol": "M",
+        "bedeutung": "Sternmasse",
+        "einheit": "kg"
+      }
+    ],
+    "quellen": [
+      "Princeton University, Stellar Timescales lecture notes."
+    ],
+    "quellenLinks": [
+      "https://www.astro.princeton.edu/~gk/A403/timescales.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/stern-dynamische-zeitskala"
+  },
+  {
+    "slug": "doppelstern-massen-kepler",
+    "name": "Gesamtmasse eines Doppelsternsystems",
+    "latex": "M_1+M_2=\\frac{4\\pi^2a^3}{GP^2}",
+    "symbol": "M₁ + M₂ = 4π²a³/(GP²)",
+    "kategorie": "astronomie",
+    "kapitel": "astro-bahnen-gravitation",
+    "unterkategorie": "Doppelsterne · Keplersches Gesetz",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "M₁+M₂",
+        "bedeutung": "Gesamtmasse beider Sterne",
+        "einheit": "kg oder M☉"
+      },
+      {
+        "symbol": "a",
+        "bedeutung": "Halbachse der relativen Bahn, nicht die Halbachse nur eines Sterns",
+        "einheit": "m oder AU"
+      },
+      {
+        "symbol": "P",
+        "bedeutung": "Umlaufperiode relativ zueinander",
+        "einheit": "s oder yr"
+      },
+      {
+        "symbol": "G",
+        "bedeutung": "Newtonsche Gravitationskonstante",
+        "einheit": "m³·kg⁻¹·s⁻²"
+      }
+    ],
+    "quellen": [
+      "OpenStax Astronomy 2e, §3.3 Newton’s Universal Law of Gravitation.",
+      "OpenStax Astronomy, §18.2 Measuring Stellar Masses."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/astronomy-2e/pages/3-3-newtons-universal-law-of-gravitation",
+      "https://openstax.org/books/astronomy/pages/18-2-measuring-stellar-masses"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/doppelstern-massen-kepler"
+  },
+  {
+    "slug": "cepheiden-perioden-leuchtkraft",
+    "name": "Cepheiden: Perioden-Leuchtkraft-Beziehung",
+    "latex": "M_V=a\\log_{10}\\left(\\frac{P}{1\\,\\mathrm{d}}\\right)+b,\\quad d=10\\,\\mathrm{pc}\\cdot10^{(m_V-M_V-A_V)/5}",
+    "symbol": "Mᵥ = a log₁₀(P/d) + b; d aus mᵥ−Mᵥ−Aᵥ",
+    "kategorie": "astronomie",
+    "kapitel": "astro-entfernung-kosmologie",
+    "unterkategorie": "Universitäre Erweiterung · Entfernungsleiter",
+    "bildungsniveaus": [
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "universitaet",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Mᵥ",
+        "bedeutung": "Mittlere absolute Helligkeit im V-Band der gewählten Cepheidenkalibration",
+        "einheit": "mag"
+      },
+      {
+        "symbol": "P",
+        "bedeutung": "Pulsationsperiode der klassischen Cepheide",
+        "einheit": "d"
+      },
+      {
+        "symbol": "a",
+        "bedeutung": "Kalibrationssteigung der Perioden-Leuchtkraft-Relation",
+        "einheit": "mag pro log₁₀-Dekade"
+      },
+      {
+        "symbol": "b",
+        "bedeutung": "Kalibrationsnullpunkt im V-Band",
+        "einheit": "mag"
+      },
+      {
+        "symbol": "mᵥ",
+        "bedeutung": "Beobachtete scheinbare mittlere V-Helligkeit",
+        "einheit": "mag"
+      },
+      {
+        "symbol": "Aᵥ",
+        "bedeutung": "Extinktion im V-Band",
+        "einheit": "mag"
+      },
+      {
+        "symbol": "d",
+        "bedeutung": "Abstand aus dem extinktionskorrigierten Distanzmodul",
+        "einheit": "pc"
+      }
+    ],
+    "quellen": [
+      "Feast, M. W. & Catchpole, R. M. (1997). Cepheid period-luminosity zero-point from Hipparcos trigonometrical parallaxes. MNRAS, 286, L1–L5.",
+      "OpenStax Astronomy 2e, §19.3 Variable Stars: One Key to Cosmic Distances."
+    ],
+    "quellenLinks": [
+      "https://doi.org/10.1093/mnras/286.1.L1",
+      "https://openstax.org/books/astronomy-2e/pages/19-3-variable-stars-one-key-to-cosmic-distances"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/cepheiden-perioden-leuchtkraft"
+  },
+  {
+    "slug": "vis-viva-geschwindigkeit-elliptische-bahn",
+    "name": "Vis-viva-Gleichung für elliptische Bahnen",
+    "latex": "v^2=\\mu\\left(\\frac{2}{r}-\\frac{1}{a}\\right)",
+    "symbol": "v² = μ(2/r − 1/a)",
+    "kategorie": "astronomie",
+    "kapitel": "astro-bahnen-gravitation",
+    "unterkategorie": "Bahnen und Gravitation",
+    "bildungsniveaus": [
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "universitaet",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "v",
+        "bedeutung": "Betrag der momentanen Bahngeschwindigkeit, nicht ihre Richtung",
+        "einheit": "km/s oder m/s"
+      },
+      {
+        "symbol": "μ",
+        "bedeutung": "Gravitationsparameter des Systems, für einen Testkörper nahe einer Zentralmasse \\(\\mu{}=GM\\)",
+        "einheit": "km³/s² oder m³/s²"
+      },
+      {
+        "symbol": "r",
+        "bedeutung": "Momentaner Abstand zwischen den Körperzentren",
+        "einheit": "km oder m"
+      },
+      {
+        "symbol": "a",
+        "bedeutung": "Große Halbachse der gebundenen elliptischen Bahn",
+        "einheit": "km oder m"
+      }
+    ],
+    "quellen": [
+      "V. Hunter Adams, Cornell MAE4160/5160 Propulsion: Vis Viva Equation.",
+      "TU Delft OpenCourseWare, AE1102, “Elliptical Orbits: velocity and energy” (Vorlesungsfolien)."
+    ],
+    "quellenLinks": [
+      "https://vanhunteradams.com/5160/Propulsion/Supplements/Prop.html",
+      "https://ocw.tudelft.nl/wp-content/uploads/AE1102_Space_Slides-5-6.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/vis-viva-geschwindigkeit-elliptische-bahn"
+  },
+  {
+    "slug": "masse-leuchtkraft-hauptreihe",
+    "name": "Masse-Leuchtkraft-Beziehung der Hauptreihe",
+    "latex": "\\frac{L}{L_\\odot}\\approx\\left(\\frac{M}{M_\\odot}\\right)^{3.9}",
+    "symbol": "L/L☉ ≈ (M/M☉)^3.9",
+    "kategorie": "astronomie",
+    "kapitel": "astro-sterne-strahlung",
+    "unterkategorie": "Sterne und Strahlung",
+    "bildungsniveaus": [
+      "sek2",
+      "bachelor"
+    ],
+    "schwierigkeit": "grundlegend",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "L",
+        "bedeutung": "bolometrische Leuchtkraft des Hauptreihensterns",
+        "einheit": "W"
+      },
+      {
+        "symbol": "M",
+        "bedeutung": "Masse des Hauptreihensterns",
+        "einheit": "kg"
+      },
+      {
+        "symbol": "L☉",
+        "bedeutung": "Sonnenleuchtkraft",
+        "einheit": "W"
+      },
+      {
+        "symbol": "M☉",
+        "bedeutung": "Sonnenmasse",
+        "einheit": "kg"
+      }
+    ],
+    "quellen": [
+      "OpenStax, Astronomy, §18.2: Measuring Stellar Masses."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/astronomy/pages/18-2-measuring-stellar-masses"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/masse-leuchtkraft-hauptreihe"
+  },
+  {
+    "slug": "hauptreihenlebensdauer",
+    "name": "Näherung für die Hauptreihenlebensdauer",
+    "latex": "t_{MS}\\approx10^{10}\\,\\mathrm{yr}\\,\\frac{M/M_\\odot}{L/L_\\odot}",
+    "symbol": "tMS ≈ 10¹⁰ yr · (M/M☉)/(L/L☉)",
+    "kategorie": "astronomie",
+    "kapitel": "astro-sterne-strahlung",
+    "unterkategorie": "Sternentwicklung",
+    "bildungsniveaus": [
+      "sek2",
+      "bachelor"
+    ],
+    "schwierigkeit": "grundlegend",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "tMS",
+        "bedeutung": "ungefähre Zeit auf der Hauptreihe",
+        "einheit": "yr"
+      },
+      {
+        "symbol": "M",
+        "bedeutung": "Sternmasse",
+        "einheit": "kg"
+      },
+      {
+        "symbol": "L",
+        "bedeutung": "Leuchtkraft während der Hauptreihe",
+        "einheit": "W"
+      },
+      {
+        "symbol": "M☉",
+        "bedeutung": "Sonnenmasse",
+        "einheit": "kg"
+      },
+      {
+        "symbol": "L☉",
+        "bedeutung": "Sonnenleuchtkraft",
+        "einheit": "W"
+      }
+    ],
+    "quellen": [
+      "OpenStax, Astronomy 2e, §22 “Figuring for Yourself,” main-sequence lifetime exercise."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/astronomy-2e/pages/22-figuring-for-yourself"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/hauptreihenlebensdauer"
+  },
+  {
+    "slug": "transit-tiefe-exoplanet",
+    "name": "Transit-Tiefe eines Exoplaneten",
+    "latex": "\\delta\\approx\\left(\\frac{R_p}{R_*}\\right)^2",
+    "symbol": "δ ≈ (Rp/R*)²",
+    "kategorie": "astronomie",
+    "kapitel": "astro-sterne-strahlung",
+    "unterkategorie": "Beobachtung und Exoplaneten",
+    "bildungsniveaus": [
+      "sek2",
+      "bachelor"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "δ",
+        "bedeutung": "relative Transit-Tiefe, \\(\\frac{\\Delta{}F}{F}\\)",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "Rp",
+        "bedeutung": "Planetenradius",
+        "einheit": "m oder km"
+      },
+      {
+        "symbol": "R*",
+        "bedeutung": "Sternradius",
+        "einheit": "m oder km"
+      }
+    ],
+    "quellen": [
+      "OpenStax, Astronomy, §21.4: Planets Beyond the Solar System: Search and Discovery."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/astronomy/pages/21-4-planets-beyond-the-solar-system-search-and-discovery"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/transit-tiefe-exoplanet"
+  },
+  {
+    "slug": "spektrale-aufloesung",
+    "name": "Spektrale Auflösung",
+    "latex": "R=\\frac{\\lambda}{\\Delta\\lambda}",
+    "symbol": "R=λ/Δλ",
+    "kategorie": "astronomie",
+    "kapitel": "astro-sterne-strahlung",
+    "unterkategorie": "Beobachtung und Instrumente",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor"
+    ],
+    "schwierigkeit": "grundlegend",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "R",
+        "bedeutung": "spektrales Auflösungsvermögen",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "λ",
+        "bedeutung": "betrachtete Wellenlänge",
+        "einheit": "m oder nm"
+      },
+      {
+        "symbol": "Δλ",
+        "bedeutung": "kleinster auflösbarer Wellenlängenabstand nach festgelegtem Kriterium",
+        "einheit": "m oder nm"
+      }
+    ],
+    "quellen": [
+      "European Southern Observatory, Science Data Products Standard, v6, §5.11 Data quality parameters, p. 37: SPEC_RES."
+    ],
+    "quellenLinks": [
+      "https://www.eso.org/sci/observing/phase3/p3sdpstd_v6.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/spektrale-aufloesung"
+  },
+  {
+    "slug": "chandrasekhar-grenze",
+    "name": "Chandrasekhar-Grenze für Weiße Zwerge",
+    "latex": "M_{Ch}\\approx1.4M_\\odot",
+    "symbol": "MCh ≈ 1.4 M☉",
+    "kategorie": "astronomie",
+    "kapitel": "astro-bahnen-gravitation",
+    "unterkategorie": "Kompakte Sterne",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "MCh",
+        "bedeutung": "Grenzmasse des idealisierten Weißen Zwergs",
+        "einheit": "kg oder M☉"
+      },
+      {
+        "symbol": "M☉",
+        "bedeutung": "Sonnenmasse",
+        "einheit": "kg"
+      }
+    ],
+    "quellen": [
+      "OpenStax, Astronomy 2e, §23.1: The Death of Low-Mass Stars."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/astronomy-2e/pages/23-1-the-death-of-low-mass-stars"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/chandrasekhar-grenze"
+  },
+  {
+    "slug": "hydrostatisches-gleichgewicht-sterninneres",
+    "name": "Hydrostatisches Gleichgewicht im Sterninneren",
+    "latex": "\\frac{dP}{dr}=-\\frac{Gm(r)\\rho(r)}{r^2},\\quad\\frac{dm}{dr}=4\\pi r^2\\rho(r)",
+    "symbol": "dP/dr=−Gmρ/r²; dm/dr=4πr²ρ",
+    "kategorie": "astronomie",
+    "kapitel": "astro-sterne-strahlung",
+    "unterkategorie": "Sternaufbau",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "P(r)",
+        "bedeutung": "Druck in Sternradius r",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "r",
+        "bedeutung": "Abstand vom Sternzentrum",
+        "einheit": "m"
+      },
+      {
+        "symbol": "m(r)",
+        "bedeutung": "innerhalb von r eingeschlossene Masse",
+        "einheit": "kg"
+      },
+      {
+        "symbol": "ρ(r)",
+        "bedeutung": "lokale Massendichte",
+        "einheit": "kg/m³"
+      },
+      {
+        "symbol": "G",
+        "bedeutung": "Gravitationskonstante",
+        "einheit": "m³/(kg·s²)"
+      }
+    ],
+    "quellen": [
+      "University of Rochester, Astronomy 241, Class 08 handout: Stellar Structure and Hydrostatic Equilibrium."
+    ],
+    "quellenLinks": [
+      "https://www.pas.rochester.edu/~dmw/astr241/Handouts/Class_08.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/hydrostatisches-gleichgewicht-sterninneres"
+  },
+  {
+    "slug": "siderische-synodische-umlaufzeit",
+    "name": "Siderische und synodische Umlaufzeit",
+    "latex": "\\frac1S=\\left|\\frac1P-\\frac1E\\right|",
+    "symbol": "1/S = |1/P − 1/E|",
+    "kategorie": "astronomie",
+    "kapitel": "astro-bahnen-gravitation",
+    "unterkategorie": "Siderische und synodische Umlaufzeit",
+    "bildungsniveaus": [
+      "sek2",
+      "bachelor"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "P",
+        "bedeutung": "siderische Periode des betrachteten Körpers",
+        "einheit": "d oder a"
+      },
+      {
+        "symbol": "E",
+        "bedeutung": "siderische Periode des Bezugskörpers",
+        "einheit": "d oder a"
+      },
+      {
+        "symbol": "S",
+        "bedeutung": "synodische Wiederkehrzeit",
+        "einheit": "d oder a"
+      }
+    ],
+    "quellen": [
+      "IQB Formelsammlung14.02.2024, Astronomie: siderische und synodische Umlaufzeit"
+    ],
+    "quellenLinks": [
+      "https://www.iqb.hu-berlin.de/media/documents/N_Mathematisch-naturwissenschaftliche_Formelsammlung.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/siderische-synodische-umlaufzeit"
+  },
+  {
+    "slug": "sonnenhoehe-taglaenge",
+    "name": "Sonnenhöhe und geometrische Tageslänge",
+    "latex": "\\sin h=\\sin\\varphi\\sin\\delta+\\cos\\varphi\\cos\\delta\\cos H",
+    "symbol": "sin h = sin φ sin δ + cos φ cos δ cos H",
+    "kategorie": "astronomie",
+    "kapitel": "astro-sterne-strahlung",
+    "unterkategorie": "Sonnenhöhe und geometrische Tageslänge",
+    "bildungsniveaus": [
+      "sek2",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "h",
+        "bedeutung": "geometrische Sonnenhöhe",
+        "einheit": "°"
+      },
+      {
+        "symbol": "φ",
+        "bedeutung": "geografische Breite, Nord positiv",
+        "einheit": "°"
+      },
+      {
+        "symbol": "δ",
+        "bedeutung": "Sonnendeklination, Nord positiv",
+        "einheit": "°"
+      },
+      {
+        "symbol": "H",
+        "bedeutung": "lokaler Stundenwinkel, nach Mittag positiv",
+        "einheit": "°"
+      }
+    ],
+    "quellen": [
+      "NOAA General Solar Position Calculations; US Naval Observatory,The Equation of Time"
+    ],
+    "quellenLinks": [
+      "https://gml.noaa.gov/grad/solcalc/solareqns.PDF"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/sonnenhoehe-taglaenge"
+  }
+]
